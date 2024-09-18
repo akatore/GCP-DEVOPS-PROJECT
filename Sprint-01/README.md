@@ -4,6 +4,8 @@
 - Make changes in  **README.md** and push this change to production
 - Code a basic flask application, test it locally and push this code to the main branch
 
+
+`app.py`
 ```python
 from flask import Flask
 app = Flask(__name__)
@@ -12,10 +14,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, Simple Flask application'
 ```
+`requirements.txt`
 ```txt
 flask
 ```
 
+`Dockerfile`
 ```Dockerfile
 FROM python:3.8-slim-buster
 
