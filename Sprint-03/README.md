@@ -21,3 +21,5 @@ Summary of question, we need to write down is the first goal, a part of design d
 - We have to write a deployment/service yaml files for K8 deployment.
 
 - We have to setup `CD` to deploy these YAML manifest files to GKE using the docker image stored in artifactory.
+
+![image](https://github.com/user-attachments/assets/39f37f4d-6123-4040-a2a2-cac719dc9232)
