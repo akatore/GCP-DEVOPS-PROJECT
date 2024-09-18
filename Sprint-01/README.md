@@ -46,3 +46,9 @@ git commit -m "added python application"
 git push origin sprint-02
 # then merge the pull request
 ```
+
+```
+docker run -p 5000:5000 python-docker-image
+```
+![image](https://github.com/user-attachments/assets/5a445f98-84f7-4326-aa28-1f8f07e48c92)
+![image](https://github.com/user-attachments/assets/221c9881-3b39-498d-adcc-a0fde0184430)
