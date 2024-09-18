@@ -42,4 +42,17 @@ We can store docker images, other files as well.
 ![image](https://github.com/user-attachments/assets/19014e38-1b78-406f-84ad-b1ca4d8c4b2b)
 
 ![image](https://github.com/user-attachments/assets/6bdcf322-abd9-4050-a690-0109d8c854ff)
+<br></br>
+
+![image](https://github.com/user-attachments/assets/7e7ea27a-88fe-4423-a16a-ad3834e29856)
+
+We have Github and GKE,
+- Build docker image using `Cloud Build` (#1)
+- Store the docker image in `GCP Artifact Registry` (#1)
+- Deploy the image present in `GCP Artifact registry` to `GKE` using `Cloud Build` (#2), which will be triggered based on certain action in our Github Repository(#2)
+- `Cloud Build` will pull the docker image and deploy in `GKE Cluster`
+
+![image](https://github.com/user-attachments/assets/0f45d917-2fd2-4465-b37a-6830e5f089bc)
+
+
 
