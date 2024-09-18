@@ -54,5 +54,5 @@ We have Github and GKE,
 
 ![image](https://github.com/user-attachments/assets/0f45d917-2fd2-4465-b37a-6830e5f089bc)
 
-
+Next, what Cloud Build is, What it can/can't do and set up a Cloud Build to push docker image
 
