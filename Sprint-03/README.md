@@ -11,7 +11,7 @@ After this, we'll have to write deployment/service `YAML files` for `k8s deploym
 We might also need Horizontal Pod Autoscaling, Ingress, but Deployment and Service are the basic ones that we need.
 
 Atlast, we'll find a way to deploy the docker image stored in the artifactory to GKE
-
+<br> </br>
 
 Summary of question, we need to write down is the first goal, a part of design discussion before we begin
 - Automated way to `build the docker image`.
@@ -23,3 +23,23 @@ Summary of question, we need to write down is the first goal, a part of design d
 - We have to setup `CD` to deploy these YAML manifest files to GKE using the docker image stored in artifactory.
 
 ![image](https://github.com/user-attachments/assets/39f37f4d-6123-4040-a2a2-cac719dc9232)
+
+<br> </br>
+
+The `CI/CD` tool responsible for deploying somthing to GCP from VCS (Github repository) is called `Cloud Build`.
+![image](https://github.com/user-attachments/assets/09d47434-d70f-4bcc-b50e-79b159df2491)
+
+Cloud Build is a service that can be used for any kind of CI/CD action in GCP
+One such action will be using it to build our docker image
+<br></br>
+When we build our docker image we can store it in GCP Artifact Registry
+
+![image](https://github.com/user-attachments/assets/63d8abd9-9221-4d07-a068-1920f462d4a2)
+
+We can store docker images, other files as well.
+<br></br>
+
+![image](https://github.com/user-attachments/assets/19014e38-1b78-406f-84ad-b1ca4d8c4b2b)
+
+![image](https://github.com/user-attachments/assets/6bdcf322-abd9-4050-a690-0109d8c854ff)
+
